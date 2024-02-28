@@ -19,10 +19,12 @@ TEST(CheckPrime, TestBigNum) {
 TEST(CheckPrime, TestMersenne) {
     int N = 10;
     for (int n = 0; n < N; n++) {
-	    if (!checkPrime(n))
-		    continue;
-	    if (!checkPrime((1 << n) - 1))
-		    FAIL();
+        if (!checkPrime(n)) {
+            continue;
+        }
+        if (!checkPrime((1 << n) - 1)) {
+            FAIL();
+        }
     }
     SUCCEED();
 }
