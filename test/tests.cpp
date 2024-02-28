@@ -24,8 +24,7 @@ TEST(CheckPrime, TestMersenne) {
 		if (!checkPrime((1 << n) - 1))
 		{
 			FAIL();
-		}
-			
+		}	
 	}
 	SUCCEED();
 }
