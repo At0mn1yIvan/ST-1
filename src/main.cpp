@@ -1,4 +1,4 @@
-// Copyright 2022 Khramov Ivan
+// Copyright 2024 Khramov Ivan
 #include "alg.h"
 
 int main() {
